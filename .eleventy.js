@@ -4,4 +4,5 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("styles");
   eleventyConfig.addPassthroughCopy("utilites.js");
+  eleventyConfig.addPassthroughCopy("vite.config.ts");
 };
